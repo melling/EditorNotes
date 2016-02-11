@@ -1,0 +1,69 @@
+#+STARTUP: showall
+#+TITLE: vim
+#+AUTHOR: http://h4labs.com
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
+
+#+INCLUDE: "dev_menu.org"
+
+* INBOX
++ http://vim.wikia.com/wiki/Invert_the_number_row_keys_for_faster_typing
++ http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
++ http://www.reddit.com/r/vim/comments/3p1vuc/tips_on_using_vim_as_a_word_processor/
++ http://vimeo.com/vimlondon
++ http://vimeo.com/user1690209
++ http://www.youtube.com/playlist?list=PL8tzorAO7s0jy7DQ3Q0FwF3BnXGQnDirs
++ http://www.reddit.com/r/vim/comments/3n34j4/do_you_use_an_autocomplete_plugin_if_yes_which_one
+
+* Why vim?
++ http://stevelosh.com/blog/2010/09/coming-home-to-vim/#why-i-came-back-to-vim
+
+
+* Tutorials
++ vimtutor; # command line; run from Terminal
++ http://danielmiessler.com/study/vim
++ http://github.com/spike01/learning-vim
++ http://vim-adventures.com
++ [[http://gist.github.com/bpierre/0a0025d348b6001394e0][Switch To Vim For Good]]
+
+* .vimrc
++ http://news.ycombinator.com/item?id=10364760 - A Good vimrc 
+
+* Advanced Topics
++ http://www.reddit.com/r/vim/comments/3hxmsy/let_vim_do_the_typing
++ http://news.ycombinator.com/item?id=10315645 - To Master vim, use it like language 
++ http://ferd.ca/vim-and-composability.html
++ http://www.reddit.com/r/vim/comments/3jnxy1/quora_what_are_the_most_amazing_things_that_can
++ http://colindrake.me/2015/06/25/objective-c-ctags-vim
+
+* Evil - Emacs vim
++ http://www.reddit.com/r/vim/comments/3fvbxw/evil_vi_improved_improved
++ http://blog.aaronbieber.com/2015/05/24/from-vim-to-emacs-in-fourteen-days.html
+
+* Plugins
++ http://code.tutsplus.com/tutorials/vim-essential-plugin-easymotion--net-19223
++ http://github.com/bkad/CamelCaseMotion
++ http://github.com/tpope/vim-surround
++ http://github.com/tpope/vim-unimpaired
++ http://github.com/ctrlpvim/ctrlp.vim
++ http://github.com/terryma/vim-multiple-cursors
++ http://github.com/rking/ag.vim
++ http://github.com/unblevable/quick-scope
+
+
+* Commands
++ :help objects
++ inoremap jk <ESC>
++ ^[ or ^C for ESC
++ Ctrl+o - prev loc
+
+
+#+BEGIN_EXAMPLE
+replace mode (R)
+insert normal mode (<c-o>)
+paste from a register in insert mode (<c-r>reg)
+expression register (=)
+clipboard and active selection registers (+, * respectively)
+command ranges (e.g. 10,+5s/foo/bar/g)
+miscellaneous commands (:global, :argdo, :normal, etc...)
+
+#+END_EXAMPLE

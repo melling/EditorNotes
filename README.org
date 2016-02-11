@@ -1,0 +1,7 @@
+#+STARTUP: showall
+#+TITLE: Editors
+#+AUTHOR: http://h4labs.com
+#+EMAIL: melling@h4labs.com
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
+
+ - [[file:atom.org][Atom]] | [[file:elisp.org][elisp]] | [[file:emacs.org][Emacs]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]]

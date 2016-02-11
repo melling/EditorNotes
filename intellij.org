@@ -1,0 +1,133 @@
+#+STARTUP: showall
+#+TITLE: IntelliJ
+#+AUTHOR: http://h4labs.com
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
+
+#+INCLUDE: "dev_menu.org"
+
++ https://news.ycombinator.com/item?id=7081149 - Code faster with Intellij IDEA live templates
++ http://java.dzone.com/articles/new-intellij-tricks-i-learnt-0
+
+#+BEGIN_HTML
+<pre class='org-code'>
+#+END_HTML
+shift-shift - search anywhere
+Cmd-shift f12 - toggle editor only 
+
+Need
+.classpath
+.project
+
+Create project from Model
+
+1. Add new parameter to function call
+1.1 Use IntelliJ to add to func declaration
+1.2 Use  IntelliJ to add to field var declaration
+
+
+Since I've seldom used Eclipse it's hard for me to compare with
+IntelliJ.
+
+
+IntelliJ
+
+* Refactorings
+
+** IntelliJ more frequently offers to fix the code correctly.
+
+* Change the types
+
+HashMap<String, Object> map = new HashMap<String,Object>();
+Cmd-Shift-F6 - Change type
+
+Always save
+With unlimited undo/redo, how often do you not want to save your work?
+
+* Less resource intensive
+** jps -l
+** Eclipse is a pig.
+
+* Code inspections
+
+int i;
+int j;
+int k;
+
+Inspect code and accept changes.
+
+
+* Cmd-J 
+
+* Productivity Guide
+
+* Support
+  Team in St. Petersburgh Russia is responsive.
+
+* Consistency
+* Shift-F10
+** In a Java program, it builds program
+** In an Android program, it builds program
+
+* Eclipse is an excellent free application
+** Intellij is a better paid-for program.  Your time is worth
+*something. $1/day? Personal license $2/day if your company is paying
+*for it.  There is also a community version, which may be enough if
+*you do basic Java application development.
+
+The Community Edition of IntelliJ IDEA 9 includes support for Ant,
+Maven, JUnit integration, Subversion, Git, and Eclipse
+interoperability along with Java, Groovy, and Scala language support
+
+
+* Videos
+
+http://www.jetbrains.com/idea/training/demos.html
+** YouTube
+
+* Things Possible in IntelliJ that aren't Possible in Eclipse
+
+http://stackoverflow.com/questions/239732/things-possible-in-intellij-that-arent-possible-in-eclipse
+
+* IntelliJ Code Inspections (More than 600)
+
+http://www.jetbrains.com/idea/documentation/inspections.jsp
+
+http://stackoverflow.com/questions/461255/things-possible-in-eclipse-that-arent-possible-in-intellij
+
+http://www.jetbrains.com/idea/documentation/migration_faq.html
+
+
+My favorite IDE for years was Emacs.  In fact, I still use Emacs
+everyday.  However, the tools for Java make programming in Java much more enjoyable.
+
+Choosing an IDE ....   My favorite Java IDE for a few years was
+Netbeans.  At one point it became sluggish and became frustrating so I
+decide that I needed to switch to Eclipse or IntelliJ.  I download the
+free 30 day trial of IntelliJ and never looked back. 
+
+Shift-F10
+
+Netbeans is still improving.  6.9 was just released.
+
+http://netbeans.org/community/releases/69/
+
+* Thought into UI
+
+** Cmd-Mouse wheel to resize font.
+
+
+Shift-ESC
+Cmd-shift -up/down to resize a tool window
+Speed search in Tool windows - ENTER
+
+Surround with
+
+Alt-Cmd-T
+Alt-Cmd-J
+Leave off end and Cmd-shift-enter will finish the line.
+
+Knows when you've used a parameter.
+
+#+BEGIN_HTML
+</pre>
+#+END_HTML

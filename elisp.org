@@ -1,0 +1,179 @@
+#+STARTUP: showall
+#+TITLE: elisp
+#+AUTHOR: http://h4labs.com
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
+
+#+INCLUDE: "dev_menu.org"
+
+* Inbox
++ http://github.com/caiorss/Emacs-Elisp-Programming
++ http://ergoemacs.org/emacs/elisp_process_lines.html
++ http://sachachua.com/blog/2015/04/2015-04-08-emacs-lisp-development-tips-with-john-wiegley
+
+
+* Debugging
+
+M-x find-function
+[[http://stackoverflow.com/questions/805292/breaking-a-running-emacs-lisp-program/805491#805491][Breaking a running Emacs Lisp program]]
+
+#+BEGIN_SRC lisp
+(defun my-get-link-text ()
+  "Get the description of the first link on the current line."
+  (save-excursion
+    (if (re-search-forward org-bracket-link-analytic-regexp
+                           (line-end-position) t)
+        (match-string 5)
+      (buffer-substring (point) (line-end-position)))))
+
+(defun my-sort-list-of-links (with-case)
+  (interactive "P")
+  (org-sort-list with-case ?f #'my-get-link-text #'string<))
+
+(setq org-descriptive-links t)
+#+END_SRC lisp
+
+
+[[alink1][- Baz]]
+- [[alink2][Foo]]
+- [[alink3][Bar]]
+
+[[http://ux.mit.edu/atic/rsi/needtoknow][
+http://curiousprogrammer.wordpress.com/2009/07/26/emacs-utility-functions/
+
+
+http://curiousprogrammer.wordpress.com/2009/08/31/sorting-records-with-emacs/
+
+
+http://curiousprogrammer.wordpress.com/2009/08/16/elisp-keyword-params/
+
+JavaScript implemenation of Elisp: http://github.com/samsonjs/elisp.js
+
+http://www.guba.com/watch/3000054867
+
+
+---
+
+(member 3 '(1 2 3))
+It will return the tail of listwhose car is element. While this is not strictly 't, any non-nil value is equivalent to true for a boolean operation. Also, 'memberuses 'equalto test for equality, use 'memqfor stricter equality (using 'eq).
+
+---
+
++ http://stackoverflow.com/questions/943760/how-can-i-check-if-a-file-exists-using-emacs-lisp
++ http://stackoverflow.com/questions/3841459/how-to-periodically-run-a-task-within-emacs
++ http://stackoverflow.com/questions/2228477/parsing-in-emacs-lisp
++ http://stackoverflow.com/questions/4448055/download-a-file-with-emacs-lisp
++ http://stackoverflow.com/questions/1598854/hidden-features-of-emacs-lisp
++ http://stackoverflow.com/questions/2607925/renumber-numbered-lists-in-emacs-muse
++ http://stackoverflow.com/questions/1994075/processing-text-with-elisp
++ http://stackoverflow.com/questions/1459429/strtotime-for-emacs-lisp
++ http://stackoverflow.com/questions/896570/elisp-check-if-string-is-already-in-list
++ http://stackoverflow.com/questions/590579/how-to-sum-a-list-of-numbers-in-emacs-lisp
++ http://stackoverflow.com/questions/487209/loop-over-variables-in-lisp
++ http://stackoverflow.com/questions/2901255/extract-slice-reorder-lists-in-emacs-lisp
++ http://stackoverflow.com/questions/2513686/how-do-i-create-an-emacs-sql-buffer
++ http://stackoverflow.com/questions/2032503/getting-stock-prices-from-yahoo-with-elisp
++ http://stackoverflow.com/questions/1019778/check-if-a-string-is-empty-in-elisp
++ http://stackoverflow.com/questions/4491277/delete-only-first-appearance-of-element-into-list
++ http://stackoverflow.com/questions/2901317/dates-and-times-in-emacs-lisp
++ http://stackoverflow.com/questions/2394978/matching-keys-in-association-lists-in-emacs-lisp
++ http://stackoverflow.com/questions/1942045/natural-order-sort-for-emacs-lisp
++ http://stackoverflow.com/questions/1664202/emacs-lisp-evaluate-variable-in-alist
++ http://news.ycombinator.com/item?id=2057483
++ Hello World:  http://stackoverflow.com/questions/2170528/writing-hello-world-in-emacs
++ CGI: http://stackoverflow.com/questions/1532311/cgi-programming-in-elisp
++ AWK Example: http://stackoverflow.com/questions/2260294/awk-print-2-1-in-emacs-lisp
++ Extract URLs:  http://stackoverflow.com/questions/1642184/extracting-urls-from-an-emacs-buffer
++ Parse CSV/Gen HTML:  http://stackoverflow.com/questions/1541682/lisp-script-to-parse-csv-and-generate-html-table
++ Wrap Selection like Textmate:  http://stackoverflow.com/questions/1558178/wrap-selection-in-open-close-tag-like-textmate
++ MySql (Unanswered): http://stackoverflow.com/questions/1532365/mysql-queries-from-elisp
++ Generate a Quiz: http://stackoverflow.com/questions/2264286/generating-a-quiz-in-emacs-lisp
++ Open Browser: http://stackoverflow.com/questions/1532365/mysql-queries-from-elisp
++ Generate a Quiz (Common Lisp): http://stackoverflow.com/questions/2264267/generating-a-quiz-in-common-lisp
++ http://stackoverflow.com/questions/2115341/sorting-buffer-lines-by-a-field
++ http://stackoverflow.com/questions/2358604/convert-decimal-hex
++ http://stackoverflow.com/questions/2170120/operating-on-multiple-lists
++ http://stackoverflow.com/questions/1623348/building-and-maintaining-a-database-in-emacs
++ http://stackoverflow.com/questions/515259/setting-the-line-number-to-a-variable-in-emacs
++ http://stackoverflow.com/questions/4242012/how-do-i-add-dates-in-emacs-using-emacs-lisp
++ http://stackoverflow.com/questions/3571574/sqlite-and-elisp
++ http://stackoverflow.com/questions/2815903/how-to-replace-with-in-the-regexp-emacs-elisp-flavor
++ http://stackoverflow.com/questions/2687939/manipulating-columns-of-numbers-in-elisp
++ http://stackoverflow.com/questions/2581935/import-csv-into-org-mode-properties
++ http://stackoverflow.com/questions/2358604/convert-decimal-hex - Me
++ http://stackoverflow.com/questions/2263983/processing-command-line-args-left - Me
++ http://stackoverflow.com/questions/2115341/sorting-buffer-lines-by-a-field - Me
++ http://stackoverflow.com/questions/2170120/operating-on-multiple-lists - Me?
++ http://stackoverflow.com/questions/3730742/concatenate-string-in-elisp
++ http://stackoverflow.com/questions/1333020/creating-a-post-with-url-elisp-package-in-emacs-utf-8-problem
++ http://stackoverflow.com/questions/1473731/traversing-a-directory-tree
++ http://stackoverflow.com/questions/2879746/idomatic-batch-processing-of-text-in-emacs
++ http://stackoverflow.com/questions/2129840/check-if-a-string-is-all-caps-in-emacs-lisp
++ http://stackoverflow.com/questions/1598854/hidden-features-of-emacs-lisp
++ http://xahlee.org/emacs/elisp_idioms_batch.html
+
+* Pleac Solutions
+
+Language shootout
+
+emacs -q; # Quick mode
+
+
+It is worth noting that you don't want to use the mark and point in
+non-interactive code; you want(indent-region (point-min) (point-max),
+not (save-excursion (mark-whole-buffer) (call-interactively
+indent-region)), even though the effects are similar.
+
+
+* Hash Tables
+
++ http://xahlee.org/emacs/elisp_hash_table.html
+
+* Porting Common Lisp to Emacs Lisp
+
++ http://www.gnu.org/software/emacs/manual/html_node/cl/Porting-Common-Lisp.html
+
+M-x re-builder - regex builder
+
+ielm - Interactive Emacs Lisp Mode
+
+Useful functions
+
+list-matching-lines == occur
+
+---
+etags with elisp?
+Lisp?
+etags using the --language=lisp
+---
+
+
+
+
+http://stackoverflow.com/questions/41522/tips-for-learning-elisp
+
+http://stackoverflow.com/questions/943760/how-can-i-check-if-a-file-exists-using-emacs-lisp
+
+== Emacs Menus ==
+
+http://xahlee.org/emacs/elisp_menu.html
+
+
+---
+write a rnd # gen using closures
+pg 170
+
+---
+
+closures - formerly free open variables are now closed to the outside world.
+
+---
+
+Lisp evaluates the call to a macro twice.  first time to get the s-expr.  second returns the value.
+
+
+(get-state '( cville pa 15425)); pg 184
+
+
+pop macro; pg 185
+
+---

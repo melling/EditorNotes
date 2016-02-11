@@ -1,0 +1,437 @@
+#+STARTUP: showall
+#+TITLE: Emacs
+#+AUTHOR: http://h4labs.com
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
+
+#+INCLUDE: "dev_menu.org"
++ http://ergoemacs.org/emacs/emacs_copy_cut_all_or_region.html
++ http://tullo.ch/articles/modern-emacs-setup
++ http://www.reddit.com/r/emacs/comments/3agn7i/pretty_new_to_text_editors_switching_to_emacs
++ http://www.reddit.com/r/emacs/comments/3a31av/orgbabel_example_collection
++ http://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html
++ http://github.com/mswift42/theme-creator
++ http://www.openhub.net/p/emacs
++ http://www.wilfred.me.uk/blog/2015/03/19/adding-a-new-language-to-emacs
++ http://sachachua.com/blog/2015/04/2015-04-30-emacs-hangout-hosted-by-philip-stark
++ http://sachachua.com/blog/2015/03/emacs-hangout-2015-03-18-show-notes/?shareadraft=baba28038_550a329db6643
++ http://www.emacswiki.org/emacs/KeyChord
++ https://github.com/jonathanchu/emacs-powerline
++ https://www.youtube.com/watch?v=FtieBc3KptU - Emacs for Writers
+ - His emacs settings - https://github.com/incandescentman/Emacs-Settings
++ Writer Neal Stephenson uses Emacs
++ http://defn.io/posts/2015-10-12-ido-mode.html
+
+* Emacs for Writers
++ https://awarewriter.wordpress.com/2012/03/04/org-mode-for-writing-structure-focus/
+
+* Absolute Emacs Beginner
+
++ https://github.com/magnars/.emacs.d/ - Emacs Rocks Author
+
+#+begin_src python :results output
+print "Hello, world!"
+#+end_src python
+
+#+begin_src python :results value
+return 1+1
+#+end_src
+
+* .emacs
++ http://github.com/daschwa/emacs.d
+
+* VimGolf in Emacs
++ http://stackoverflow.com/questions/21576057/is-there-emacs-version-of-vimgolf
++ http://github.com/igrigorik/vimgolf/blob/master/emacs/vimgolf.el
++ [[http://vimeo.com/timvisher/videos/page:1/sort%3anewest][Tim Visher Videos]]
++ http://irreal.org/blog/?s=vimgolf
++ http://emacsrocks.com/e02.html
++ http://www.masteringemacs.org/article/fun-with-vimgolf-1-alphabetize-directory
++ http://www.masteringemacs.org/article/fun-vimgolf-4-transpositioning-text-tables
++ http://ergoemacs.org/misc/emacs_edit_exercise_puthash_unicode.html
+ - https://plus.google.com/113859563190964307534/posts/Qp1Qi74yZoE
++ http://ergoemacs.org/emacs/emacs_align_and_sort.html
++ http://blog.twonegatives.com/post/8214896404/vimgolf-in-emacs-001-recursively-palindrome
+
+* Navigation
++ ace jump
++ http://www.reddit.com/r/emacs/comments/35auys/avyjump_vs_acejump_vs_cs
+ 
+* Use Package
+
+* Hydra
++ http://oremacs.com/2015/01/20/introducing-hydra
+  - http://news.ycombinator.com/item?id=9017454 - Emacs hydra.el: a new way of creating key bindings
++ http://github.com/abo-abo/hydra/wiki/Emacs
++ http://www.reddit.com/r/emacs/comments/3ba645/does_anybody_have_any_real_cool_hydras_to_share
+
+#+begin_src elisp
+(defhydra hydra-toggle (global-map "C-c" :color red)
+   "toggle"
+   ("a" abbrev-mode "abbrev" :color blue)
+   ("d" toggle-debug-on-error "debug" :color blue)
+   ("f" auto-fill-mode "fill" :color blue)
+   ("t" toggle-truncate-lines "truncate" :color blue)
+   ("w" whitespace-mode "whitespace" :color blue)
+   ("v" recenter-top-bottom "recenter" :color red)
+   ("q" nil "cancel" :color blue))
+(global-set-key (kbd "C-c C-v") 'hydra-toggle/body)
+#+end_src
+
+#+begin_src elisp
+(global-set-key
+ (kbd "<f5>")
+ (defhydra hydra-helm (:color blue)
+   "helm"
+   ("f" projectile-find-file "file")
+   ("w" helm-org-wiki "wiki")
+   ("r" helm-recentf "recent")
+   ("s" helm-swoop "swoop")
+   ("q" nil "quit")))
+#+end_src
+   
+# blank lines OK in indented blocks, and use return()
+# Entire source block will get indented and used as the body of main()
+#+begin_src python :results output
+def foo(x):
+  if x>0:
+    return x+1
+
+  else:
+    return x-1
+
+return foo(5)
+#+end_src
+
+
+#+NAME: p1
+#+BEGIN_SRC python output
+constant=19
+def some_function(x):
+  return constant * x
+#+END_SRC
+
+
+#+begin_src ruby
+"This file was last evaluated on #{Date.today}"
+#+end_src
+
+#+begin_src sh
+  echo "This file takes up `du -h org-babel.org |sed 's/\([0-9k]*\)[ ]*org-babel.org/\1/'`"
+#+end_src
+
+* Blogs
+#+ATTR_HTML: :title The Org mode homepage :style color:red;
++ http://www.insightdatascience.com/blog/emacs_for_data_science.html
++ [[http://zeekat.nl/articles/making-emacs-work-for-me.html#sec-1][Making Emacs Work for Me]]
++ [[http://pages.sachachua.com/.emacs.d/Sacha.html][Sacha]]
++ [[http://www.masteringemacs.org][Mastering Emacs.org]]
++ [[http://www.lunaryorn.com/2014/08/12/emacs-script-pitfalls.html][Emacs Script Pitfalls]]
++ [[http://ergoemacs.org/emacs/emacs_buffer_switching.html][Buffer Switching]]
++ [[http://emacs.sexy][Emacs.sexy]]
++ [[http://emacsthemes.caisah.info][Emacs Themes]]
++ [[http://emacsrocks.com/][Emacs Rocks]]
++ [[http://www.juanrubio.me/2011/11/emacs-smex-m-x-do-not-like-typing/][Emacs smex : M-x do-not-like-typing]]
++ [[https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf][Emacs Refcard]]
++ [[https://dl.dropboxusercontent.com/u/3968124/blog.html#sec-2-1][Sacha's Emacs Chats]]
++ [[https://dl.dropboxusercontent.com/u/3968124/blog.html#sec-2-1][Sacha's Emacs Dropbox Page]]
++ [[http://sachachua.com/blog/category/emacs/][Sacha's Emacs Articles]]
++ [[https://github.com/syl20bnr/spacemacs][Spacemacs]]
+
+
+* Package Management
+
+#+BEGIN_EXAMPLE
+M-x list-packages
+M-x package-install
+#+END_EXAMPLE
+
+* Macintosh
+
+#+BEGIN_SRC emacs-lisp
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier 'super)
+#+END_SRC
+
+* GNU Global
++ http://emacswiki.org/emacs/GnuGlobal
+
+* Helm
++ http://tuhdo.github.io/helm-intro.html
+
+** Helm Show Kill Ring
+
+** Helm Swoop
++ http://www.emacswiki.org/emacs/HelmSwoop
++ Works with Ace isearch 
+
+#+BEGIN_SRC emacs-lisp
+(require 'helm-config)
+(helm-mode 1)
+#+END_SRC
+
+* YASnippets
++ http://sachachua.com/blog/2015/01/thinking-make-better-use-yasnippet-emacs-workflow
+
+Try: http://chrisdone.com/posts/god-mode
+   M-x list-packages and pick god-mode
+
+#+ATTR_HTML: :textarea t :width 40
+#+BEGIN_EXAMPLE
+  (defun org-xor (a b)
+     "Exclusive or."
+     (if a (not b) b))
+#+END_EXAMPLE
+
+* Git
++ C-x v g, vc-annotate, colour-coding
+
+** Magit
+
+** Git Time Machine
+
+** Git Gutter Fringe
+
+** Git Wip
++ http://github.com/bartman/git-wip - Work in progress commits
++ Wip with Time Machine - https://github.com/itsjeyd/git-wip-timemachine
+
+** Git Messenger 
++ shows commit message for a given line
++ 
+
+* TODO Push html
+
+** This is a headline
+        Still outside the drawer
+        :DRAWERNAME:
+        This is inside the drawer.
+        :END:
+        After the drawer.
+
+* Org Mode
+
++ [[http://orgmode.org/worg/org-faq.html][Org-mode Frequently Asked Questions]]
++ [[http://orgmode.org/worg/org-hacks.html][Org ad hoc code, quick hacks and workarounds]]
++ [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
++ [[http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html][Org Tutorial]]
++ [[http://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][Publishing Org-mode files to HTML]]
++ [[http://orgmode.org/orgcard.pdf][RefCard]]
++ [[http://stackoverflow.com/questions/12052013/beautiful-websites-using-emacss-org-mode][beautiful websites using Emacs's org mode]]
++ [[http://emacs-fu.blogspot.com/2009/05/writing-and-blogging-with-org-mode.html][writing and blogging with org-mode]]
++ [[http://orgmode.org/worg/exporters/ox-overview.html][New Exporters]]
++ [[http://vislab-ccom.unh.edu/~schwehr/rt/][2011 Research Tools]] (videos)
+
+* Misc Packages
++ http://github.com/kiwanami/emacs-calfw
+
+* AutoCompletion
+
++ Alt+Control+/ - Expansion options in a window
++ Alt+/ - Hippie expand
++ [[http://alexott.net/en/writings/emacs-devenv/EmacsCedet.html][A Gentle introduction to CEDET]]
++ [[http://emacs.stackexchange.com/questions/2671/how-can-i-get-fuzzy-code-completion][How can I get fuzzy code completion]]
++ https://github.com/drmingdrmer/xptemplate - vi
++ http://www.emacswiki.org/emacs/PredictiveMode
+
+
+** Company Mode
++ http://company-mode.github.io
+
+#+BEGIN_EXAMPLE
+Do not interpret org-mode here.
+
+#+END_EXAMPLE
+
+* Package Management
+
++ http://ergoemacs.org/emacs/emacs_package_system.html
+
+* Packages
+
+* Misc
+
++ [[http://www.emacswiki.org/emacs/PredictiveMode][PredictiveMode]]
++ [[http://cx4a.org/software/auto-complete/manual.html#Installation][Auto-Complete]]
++ Zap up to but not including character
++ [[http://www.masteringemacs.org/article/introduction-to-ido-mode][Introduction to ido-mode]]
++ [[http://github.com/josteink/wsd-mode][wsd-mode - A major-mode for Emacs and websequencediagrams.com]]
++ https://github.com/capitaomorte/autopair#electric-pair-mode-in-emacs-244
+
+
+\pound
+#+BEGIN_SRC emacs-lisp
+       (defun org-xor (a b)
+          "Exclusive or."
+          (if a (not b) b))
+#+END_SRC
+
+* Misc
++ http://irreal.org/emacs-reminders.html
++ http://meta.emacs.stackexchange.com/questions/232/state-of-the-beta?cb=1
++ http://emacsredux.com/blog/2014/03/01/a-peek-at-emacs-24-dot-4-delete-duplicate-lines/
++ http://emacsredux.com/blog/2013/04/21/camelcase-aware-editing/
++ http://tuhdo.github.io/index.html
++ http://emacsrocks.com/e09.html - expand-region
++ cua-mode - http://ergoemacs.org/emacs/modernization_cua-mode.html
++ http://ergoemacs.org/emacs/modernization.html
++ https://ergoemacs.github.io
++ [[http://vxlabs.com/tag/emacs][Emacs and dot]]
++ http://company-mode.github.io
++ http://www.texpadapp.com - LaTex editor 
++ http://cedet.sourceforge.net/srecode.shtml
++ http://news.ycombinator.com/item?id=8777565
++ http://dominik.honnef.co/posts/2013/03/writing_go_in_emacs/
++ http://stackoverflow.com/questions/12711765/status-of-cedet-and-ecb-in-emacs-24-2
++ http://oremacs.com/2014/12/26/the-little-package-that-could/
++ http://oremacs.com
++ http://github.com/imgix/imgix-emacs
+
+
+== Keyboard Misc ==
+
+To replace commas with newlines: M-x replace-string ,C-q C-j
+
+M-x cd change working directory
+
+== Working with Lisp ==
+
+(setq blink-matching-paren t)
+
+== Misc ==
+* Tabs to spaces
+
+(custom-set-variables
+ '(indent-tabs-mode nil)
+ '(tab-width 4))
+
+** 
+http://stackoverflow.com/questions/1852812/saving-all-modified-buffers-in-emacs-but-not-one-by-one
+
+** Misc Commands
+M-x ibuffer
+
+* Mac key bindings
+
+http://aquamacs.org/features.shtml
+
+** Useful functions - aka Emacs buffer toolbox
+*** Delete all blank lines
+
+*** Delete leading spaces
+*** Delete trailing spaces
+
+* Dired
+
++ - Create Directory
+g - Refresh buffer
+C - Copy file
+D - Delete
+R - Rename
+Z - Compress/Decompress
+T - Change timestamp
+M - Change file mode
+
+---
+m - mark - mark multiple files for operations
+U - unmark selection
+
+%m - regular expression match
+
+#+BEGIN_COMMENT
+
+Multiple cursors
+
+HN
+https://news.ycombinator.com/item?id=8614518
+https://news.ycombinator.com/item?id=8649856
+https://news.ycombinator.com/item?id=8677399
+https://news.ycombinator.com/item?id=8709996
+https://news.ycombinator.com/item?id=8748378
+https://news.ycombinator.com/item?id=8769905
+
+
+Magit- git
+
+
+http://shorttalk-emacs.sourceforge.net
+
+#+END_COMMENT
+
+#+BEGIN_Example
+
+== ==
+emacs -nw
+
+M-g g - Goto line
+
+http://stuff.mit.edu/iap/2009/emacs/part1.html
+
+C-x C-x
+
+C-/ or C-_ - undo
+
+F3 - record macro
+F4 - stop record or play
+
+M-0 F4 - play macro until the end
+M-x view-lossage
+C-g cancel
+
+http://web.mit.edu/olh/Emacs/Refcard.pdf
+http://stackoverflow.com/questions/60367/the-single-most-useful-emacs-feature
+
+M-x occur
+
+http://www.emacswiki.org/cgi-bin/wiki/TabCompletion#toc2
+
+PDF
+Part of 23.1
+http://www.tsdh.de/cgi-bin/wiki.pl/doc-view.el
+Split screen vertically and view PDF while coding.
+
+RSS Reader
+newsticker
+http://www.nongnu.org/newsticker/
+
+== ==
+emacs -nw
+
+M-g g - Goto line
+
+http://stuff.mit.edu/iap/2009/emacs/part1.html
+
+C-x C-x
+
+C-/ or C-_ - undo
+
+F3 - record macro
+F4 - stop record or play
+
+M-0 F4 - play macro until the end
+M-x view-lossage
+C-g cancel
+
+http://web.mit.edu/olh/Emacs/Refcard.pdf
+
+http://stackoverflow.com/questions/60367/the-single-most-useful-emacs-feature
+
+M-x occur
+
+http://www.emacswiki.org/cgi-bin/wiki/TabCompletion#toc2
+
+PDF
+Part of 23.1
+http://www.tsdh.de/cgi-bin/wiki.pl/doc-view.el
+
+Split screen vertically and view PDF while coding.
+
+RSS Reader
+newsticker
+http://www.nongnu.org/newsticker/
+
+revbufs.el - refresh all buffers
+http://www.neilvandyke.org/revbufs
+
+http://steve.yegge.googlepages.com/effective-emacs
+
+#+END_EXAMPLE

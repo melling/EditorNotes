@@ -1,0 +1,12 @@
+#+STARTUP: showall
+#+TITLE: Sublime
+#+AUTHOR: http://h4labs.com
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
+
+* Inbox
+
++ http://jennifermann.ghost.io/a-quick-guide-to-sublime-text
++ $ subl .
+
+* Packages
++ https://packagecontrol.io

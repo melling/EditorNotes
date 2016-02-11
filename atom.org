@@ -1,0 +1,6 @@
+#+STARTUP: showall
+#+TITLE: Atom Editor
+#+AUTHOR: http://h4labs.com
+#+EMAIL: melling@h4labs.com
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
+
