@@ -6,6 +6,7 @@
 #+INCLUDE: "dev_menu.org"
 
 * INBOX
++ https://www.reddit.com/r/vim/comments/45jvw6/how_i_vim_damian_conway
 + http://vim.wikia.com/wiki/Invert_the_number_row_keys_for_faster_typing
 + http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
 + http://www.reddit.com/r/vim/comments/3p1vuc/tips_on_using_vim_as_a_word_processor/
