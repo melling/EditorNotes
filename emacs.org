@@ -4,6 +4,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
 
 #+INCLUDE: "dev_menu.org"
++ [[http://blog.binchen.org/posts/how-to-be-extremely-efficient-in-emacs.html][How to be extremely efficient in Emacs]]
 + http://ergoemacs.org/emacs/emacs_copy_cut_all_or_region.html
 + http://tullo.ch/articles/modern-emacs-setup
 + http://www.reddit.com/r/emacs/comments/3agn7i/pretty_new_to_text_editors_switching_to_emacs
