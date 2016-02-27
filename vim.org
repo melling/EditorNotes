@@ -70,7 +70,8 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 | Keystrokes | Description | More |
 |w|Next word||
 |b|back word|
-|f|find in line|fa,fb|
+|f|find character in line|fa,fb  - cursor placed on character|
+|t|Move unTil character|ta, tb - cursor placed before character 
 |gf|Goto file||
 
 * Editing
