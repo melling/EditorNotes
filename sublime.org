@@ -12,3 +12,4 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 
 * Packages
 + https://packagecontrol.io
++ https://github.com/ice9js/ace-jump-sublime
