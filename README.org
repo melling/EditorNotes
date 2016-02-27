@@ -5,3 +5,15 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
 
  - [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]]
+
+* Navigation 
+|Editor task|vim
+|---
+|Goto line 2|2G or 2gg
+|Move down 5 lines|5j
+|beginning of line|0
+|end of line|$
+|beginning of file|
+|end of file|
+
+* Selection
