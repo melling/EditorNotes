@@ -14,6 +14,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 |Move up 9 lines|9k|||
 |beginning of line|0|C-a|
 |end of line|$|C-e|
+|First nonblank character on line|^|||
 |beginning of file|gg|ESC-<|
 |end of file|G|ESC->|
 |next word|w|ESC-n||
