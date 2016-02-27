@@ -7,7 +7,6 @@
 
 * Inbox
 
-+ 
 + [[http://vim.wikia.com/wiki/Invert_the_number_row_keys_for_faster_typing][Invert the number row keys for faster typing]]
 + http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
 + http://vimeo.com/vimlondon
