@@ -67,6 +67,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + :registers
 
 | Keystrokes | Description | More |
+|C-w|delete word
 | di[| delete inner to bracket ]|
 |di{|,delete inner to {|
 |di"|delete inner to "|
@@ -84,6 +85,14 @@ qq - record macro. ESC to end record
 10q - play 10 times
 <,> ???
 set @q=fooC-vbar - set the macro.  Has a newline C-v
+#+END_EXAMPLE
+
+* Auocompletion
+
+#+BEGIN_EXAMPLE 
+
+C-x C-n
+
 #+END_EXAMPLE 
 
 #+BEGIN_EXAMPLE
