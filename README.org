@@ -9,11 +9,31 @@
 * Navigation 
 |Editor task|vim|emacs|Sublime|atom|xcode
 |---
-|Goto line 2|2G or 2gg
+|Goto line 2|2G or 2gg|||
 |Move down 5 lines|5j
+|Move up 5 lines|5k|||
 |beginning of line|0
 |end of line|$
 |beginning of file|
 |end of file|
+|next word||||
+|previous word|||
+|next camel word|||
+|previous camel word|||
 
 * Selection
+
+|Editor task|vim|emacs|Sublime|atom|xcode
+|---
+
+
+* Editing
+
+|Editor task|vim|emacs|Sublime|atom|xcode
+|---
+|join lines|
+|uppercase word|
+|lowercase word|
+|delete current line|
+|delete from cursor until end of line||
+
