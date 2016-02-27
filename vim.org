@@ -55,6 +55,9 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + http://github.com/rking/ag.vim
 + http://github.com/unblevable/quick-scope
 
+* vim and Dvorak
++ http://superuser.com/questions/81984/dvorak-hotkey-remapping-in-vim-worth-it
++ https://www.reddit.com/r/vim/comments/257t8c/vim_for_dvorak
 
 * Commands
 + :help objects
