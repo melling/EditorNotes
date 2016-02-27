@@ -73,6 +73,9 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 |e|end of current word|
 |f|find character in line|fa,fb  - cursor placed on character.  Use . to repeat|
 |t|Move unTil character|ta, tb - cursor placed before character.  Use . to repeat| 
+|)|Forward one sentence|
+|}|Forward one paragraph |
+
 |gf|Goto file||
 
 * Editing
