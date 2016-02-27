@@ -72,7 +72,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 |da[|delete all - brackets too|
 |ya"|Yank all
 |yi"|Yank inner|
-
+|ci"|change inside "|
 
 
 #+BEGIN_EXAMPLE
