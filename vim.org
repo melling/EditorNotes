@@ -64,11 +64,14 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + inoremap jk <ESC>
 + ^[ or ^C for ESC
 + Ctrl+o - prev loc
++ :registers
 
 | di[| delete inner to bracket ]|
 |di{|,delete inner to {|
 |di"|delete inner to "|
-|da[|delete brackets too|
+|da[|delete all - brackets too|
+|ya"|Yank all
+|yi"|Yank inner|
 
 
 
