@@ -5,7 +5,7 @@
 
 #+INCLUDE: "dev_menu.org"
 
-Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]]
+Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]] | [[file:xcode.org][Xcode]]
 
 * Inbox
 + https://www.reddit.com/r/vim/comments/47lhdn/unleash_your_vim_fu_talk_at_vim_barcelona
