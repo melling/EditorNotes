@@ -79,7 +79,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 * Macros
 
 #+BEGIN_EXAMPLE 
-qq- record macro
+qq - record macro. ESC to end record
 @q - play macro
 #+END_EXAMPLE 
 
