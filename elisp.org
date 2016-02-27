@@ -5,6 +5,8 @@
 
 #+INCLUDE: "dev_menu.org"
 
+Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]]
+
 * Inbox
 + http://github.com/caiorss/Emacs-Elisp-Programming
 + http://ergoemacs.org/emacs/elisp_process_lines.html
