@@ -4,6 +4,9 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
 
 #+INCLUDE: "dev_menu.org"
+Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]]
+
+* Inbox
 + [[http://blog.binchen.org/posts/how-to-be-extremely-efficient-in-emacs.html][How to be extremely efficient in Emacs]]
 + http://ergoemacs.org/emacs/emacs_copy_cut_all_or_region.html
 + http://tullo.ch/articles/modern-emacs-setup
