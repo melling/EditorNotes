@@ -81,6 +81,8 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 #+BEGIN_EXAMPLE 
 qq - record macro. ESC to end record
 @q - play macro
+10q - play 10 times
+<,> ???
 #+END_EXAMPLE 
 
 #+BEGIN_EXAMPLE
