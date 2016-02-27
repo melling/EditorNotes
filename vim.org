@@ -65,6 +65,12 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + ^[ or ^C for ESC
 + Ctrl+o - prev loc
 
+| di[| delete inner to bracket ]|
+|di{|,delete inner to {|
+|di"|delete inner to "|
+|da[|delete brackets too|
+
+
 
 #+BEGIN_EXAMPLE
 replace mode (R)
