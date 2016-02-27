@@ -6,7 +6,7 @@
 #+INCLUDE: "dev_menu.org"
 
 * Inbox
-
++ https://www.reddit.com/r/vim/comments/47lhdn/unleash_your_vim_fu_talk_at_vim_barcelona
 + [[http://vim.wikia.com/wiki/Invert_the_number_row_keys_for_faster_typing][Invert the number row keys for faster typing]]
 + http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
 + http://vimeo.com/vimlondon
