@@ -66,6 +66,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + Ctrl+o - prev loc
 + :registers
 
+| Keystrokes | Description | More |
 | di[| delete inner to bracket ]|
 |di{|,delete inner to {|
 |di"|delete inner to "|
@@ -73,7 +74,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 |ya"|Yank all
 |yi"|Yank inner|
 |ci"|change inside "|
-
+|.|repeat| http://stackoverflow.com/questions/12566235/what-can-the-dot-command-repeat-exactly , http://stackoverflow.com/questions/7325052/can-someone-explain-to-me-why-the-dot-command-is-so-useful-in-vim
 
 #+BEGIN_EXAMPLE
 replace mode (R)
