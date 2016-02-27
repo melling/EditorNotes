@@ -76,6 +76,13 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 |ci"|change inside "|
 |.|repeat| http://stackoverflow.com/questions/12566235/what-can-the-dot-command-repeat-exactly , http://stackoverflow.com/questions/7325052/can-someone-explain-to-me-why-the-dot-command-is-so-useful-in-vim
 
+* Macros
+
+#+BEGIN_EXAMPLE 
+qq- record macro
+@q - play macro
+#+END_EXAMPLE 
+
 #+BEGIN_EXAMPLE
 replace mode (R)
 insert normal mode (<c-o>)
