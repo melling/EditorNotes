@@ -7,7 +7,7 @@
  - [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]]
 
 * Navigation 
-|Editor task|vim
+|Editor task|vim|emacs|Sublime|atom|xcode
 |---
 |Goto line 2|2G or 2gg
 |Move down 5 lines|5j
