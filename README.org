@@ -9,7 +9,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 * Basic Navigation 
 |Editor task|vim|emacs|Sublime|atom|xcode
 |---
-|Goto line 2|2G or 2gg|||
+|Goto line 2|2G, 2gg, or :2|||
 |Move down 9 lines|9j
 |Move up 9 lines|9k|||
 |beginning of line|0|C-a|
