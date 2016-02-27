@@ -83,6 +83,7 @@ qq - record macro. ESC to end record
 @q - play macro
 10q - play 10 times
 <,> ???
+set @q=fooC-vbar - set the macro.  Has a newline C-v
 #+END_EXAMPLE 
 
 #+BEGIN_EXAMPLE
