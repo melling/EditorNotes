@@ -36,7 +36,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 
 |Editor task|vim|emacs|Sublime|atom|xcode
 |---
-|join lines|
+|join lines|J|ESC-^||||
 |uppercase word|
 |lowercase word|
 |delete current line|
