@@ -6,7 +6,7 @@
 #+INCLUDE: "dev_menu.org"
 
 * Inbox
-+ http://davisvigneault.com/2016/02/youcompleteme-rocks/
+
 + https://www.reddit.com/r/vim/comments/45jvw6/how_i_vim_damian_conway
 + http://vim.wikia.com/wiki/Invert_the_number_row_keys_for_faster_typing
 + http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
@@ -43,6 +43,8 @@
 
 * Plugins
 + http://code.tutsplus.com/tutorials/vim-essential-plugin-easymotion--net-19223
++ [[https://github.com/valloric/youcompleteme][YouCompleteMe]]
+ - http://davisvigneault.com/2016/02/youcompleteme-rocks
 + http://github.com/bkad/CamelCaseMotion
 + http://github.com/tpope/vim-surround
 + http://github.com/tpope/vim-unimpaired
