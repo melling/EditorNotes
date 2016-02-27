@@ -4,7 +4,9 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
 
 #+INCLUDE: "dev_menu.org"
+Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]]
 
+* Inbox
 + https://news.ycombinator.com/item?id=7081149 - Code faster with Intellij IDEA live templates
 + http://java.dzone.com/articles/new-intellij-tricks-i-learnt-0
 
