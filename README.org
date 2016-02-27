@@ -10,14 +10,14 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 |Editor task|vim|emacs|Sublime|atom|xcode
 |---
 |Goto line 2|2G or 2gg|||
-|Move down 5 lines|5j
-|Move up 5 lines|5k|||
-|beginning of line|0
-|end of line|$
-|beginning of file|
-|end of file|
-|next word||||
-|previous word|||
+|Move down 9 lines|9j
+|Move up 9 lines|9k|||
+|beginning of line|0|C-a|
+|end of line|$|C-e|
+|beginning of file|gg|ESC-<|
+|end of file|G|ESC->|
+|next word|w|ESC-n||
+|previous word|b|ESC-b|
 |next camel word|||
 |previous camel word|||
 
