@@ -6,7 +6,7 @@
 
 Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]] | [[file:xcode.org][Xcode]]
 
-* Navigation 
+* Basic Navigation 
 |Editor task|vim|emacs|Sublime|atom|xcode
 |---
 |Goto line 2|2G or 2gg|||
@@ -20,6 +20,11 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 |previous word|b|ESC-b|
 |next camel word|||
 |previous camel word|||
+
+* Advanced Navigation 
+|Editor task|vim|emacs|Sublime|atom|xcode
+|---
+|Next blank line|}|||
 
 * Selection
 
@@ -36,3 +41,4 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 |lowercase word|
 |delete current line|
 |delete from cursor until end of line||
+|undo|u|C-_||||
