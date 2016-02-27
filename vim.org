@@ -7,15 +7,16 @@
 
 * Inbox
 
-+ https://www.reddit.com/r/vim/comments/45jvw6/how_i_vim_damian_conway
-+ http://vim.wikia.com/wiki/Invert_the_number_row_keys_for_faster_typing
++ 
++ [[http://vim.wikia.com/wiki/Invert_the_number_row_keys_for_faster_typing][Invert the number row keys for faster typing]]
 + http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
-+ http://www.reddit.com/r/vim/comments/3p1vuc/tips_on_using_vim_as_a_word_processor/
 + http://vimeo.com/vimlondon
 + http://vimeo.com/user1690209
 + http://www.youtube.com/playlist?list=PL8tzorAO7s0jy7DQ3Q0FwF3BnXGQnDirs
-+ http://www.reddit.com/r/vim/comments/3n34j4/do_you_use_an_autocomplete_plugin_if_yes_which_one
-
++ Reddit
+ - [[http://www.reddit.com/r/vim/comments/3p1vuc/tips_on_using_vim_as_a_word_processor][Tips on using vim as a word processor]]
+ - [[http://www.reddit.com/r/vim/comments/3n34j4/do_you_use_an_autocomplete_plugin_if_yes_which_one][Do you use an autocomplete plugin]]
+ - [[https://www.reddit.com/r/vim/comments/45jvw6/how_i_vim_damian_conway][How I vim - Damian Conway]]
 * Why vim?
 + http://stevelosh.com/blog/2010/09/coming-home-to-vim/#why-i-came-back-to-vim
 
