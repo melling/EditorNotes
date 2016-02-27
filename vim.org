@@ -66,6 +66,14 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + Ctrl+o - prev loc
 + :registers
 
+* Navigation 
+| Keystrokes | Description | More |
+|w|Next word||
+|b|back word|
+|f|find in line|fa,fb|
+|gf|Goto file||
+
+* Editing
 | Keystrokes | Description | More |
 |C-w|delete word
 | di[| delete inner to bracket ]|
