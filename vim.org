@@ -24,7 +24,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 
 * Tutorials
 + vimtutor; # command line; run from Terminal
-+ http://danielmiessler.com/study/vim
++ [[http://danielmiessler.com/study/vim][A vim Tutorial and Primer]]
 + http://github.com/spike01/learning-vim
 + http://vim-adventures.com
 + [[https://github.com/bpierre/switch-to-vim-for-good][Switch To Vim For Good]]
