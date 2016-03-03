@@ -28,6 +28,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + http://github.com/spike01/learning-vim
 + http://vim-adventures.com
 + [[https://github.com/bpierre/switch-to-vim-for-good][Switch To Vim For Good]]
++ [[http://howivim.com][How I vim]]
 
 * .vimrc
 + http://news.ycombinator.com/item?id=10364760 - A Good vimrc 
