@@ -7,6 +7,7 @@
 Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]] | [[file:xcode.org][Xcode]]
 
 * Inbox
++ [[http://blog.jetbrains.com/idea/2016/03/enjoying-java-and-being-more-productive-with-intellij-idea/][Enjoying Java and Being More Productive with IntelliJ IDEA]]
 + https://news.ycombinator.com/item?id=7081149 - Code faster with Intellij IDEA live templates
 + http://java.dzone.com/articles/new-intellij-tricks-i-learnt-0
 
