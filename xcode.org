@@ -6,3 +6,15 @@
 #+INCLUDE: "dev_menu.org"
 
 Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]] | [[file:xcode.org][Xcode]]
+
+* Inbox
++ http://www.raizlabs.com/dev/2015/03/spicing-up-xcode
++ http://natashatherobot.com/xcode-block-select-mode/
++ https://medium.com/@jasperkuperus/xcode-productivity-tips-88a9371c2c71
++ http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools
+
+* Plugins
++ https://github.com/stefanceriu/SCXcodeSwitchExpander
+
+* Snippets
++ https://gist.github.com/pyrtsa
