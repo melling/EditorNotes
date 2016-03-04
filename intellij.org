@@ -10,6 +10,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + [[http://blog.jetbrains.com/idea/2016/03/enjoying-java-and-being-more-productive-with-intellij-idea/][Enjoying Java and Being More Productive with IntelliJ IDEA]]
 + [[http://maciejwalkowiak.pl/blog/2014/01/14/code-faster-with-intellij-idea-live-templates/][Code faster with Intellij IDEA live templates]]
  - https://news.ycombinator.com/item?id=7081149
++ [[http://trishagee.github.io/post/stuff_i_learnt_about_intellij/][New IntelliJ Tricks I Learnt Today]]
 + [[http://java.dzone.com/articles/new-intellij-tricks-i-learnt-0][New IntelliJ Tricks I Learnt Part 2]]
 
 #+BEGIN_HTML
