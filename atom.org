@@ -5,3 +5,18 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
 
 Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]] | [[file:xcode.org][Xcode]]
+
+* The Short List
++ https://atom.io
++ [[https://github.com/mehcode/awesome-atom][Awesome Atom]]
+
+* Inbox
++ [[http://www.marinamele.com/install-and-configure-atom-editor-for-python][Install and Configure the Atom Editor for Python]]
++ [[http://marcio.io/2015/07/supercharging-atom-editor-for-go-development/][Supercharging the Atom Editor for Go Development]]
++ [[http://blog.blakesimpson.co.uk/read/84-getting-started-with-the-atom-editor-and-tips-for-switching-from-vim-][Getting started with the Atom Editor (and tips for switching from Vim)]]
++ [[http://andrejgajdos.com/my-atom-packages-for-front-end-web-development][My first week with Atom editor]]
+
+
+* Plugins
++ [[http://www.hongkiat.com/blog/useful-atom-packages/][10 Most Useful Atom Packages for Web Developers]]
++ [[http://jonathanmh.com/my-7-favourite-atom-editor-plugins/][My 7+ favourite atom editor plugins]]
