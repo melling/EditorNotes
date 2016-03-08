@@ -17,6 +17,17 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + https://github.com/stefanceriu/SCXcodeSwitchExpander
 + https://github.com/dealforest/Cichlid - automatically remove the current project's DerivedData directories
 + https://github.com/Jintin/Swimat - Format Swift code
++ [[http://www.h4labs.com/dev/ios/swift.html?age=10000&q=Plugins][h4labs links]]
++ Fuzzy Quick Open Completion ???
++ Beginning of Line
+ - https://github.com/insanehunter/XCode4_beginning_of_line/blob/master/Xcode_beginning_of_line.m
++ QuickJump
+ - https://github.com/wiruzx/QuickJump - Swift
++ Change Font Size
++ Snippets
+ - https://github.com/burczyk/XcodeSwiftSnippets
+
+** Plugin Creation
 
 * Snippets
 + https://gist.github.com/pyrtsa
