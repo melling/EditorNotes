@@ -31,3 +31,5 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 
 * Snippets
 + https://gist.github.com/pyrtsa
++ ~/Library/Developer/Xcode/UserData/CodeSnippets/
+
