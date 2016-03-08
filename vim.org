@@ -75,7 +75,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 |f|find character forward in line|fa,fb  - cursor placed on character.  Use . to repeat|
 |t|Move forward unTil character|ta, tb - cursor placed before character.  Use . to repeat| 
 |F|find character backwards in line|fa,fb  - cursor placed on character.  Use . to repeat|
-|T|Move backwards unTil character|ta, tb - cursor placed before character.  Use . to repeat| 
+|T|Move backwards unTil character|ta, tb - cursor placed after character.  Use . to repeat| 
 |)|Forward one sentence|
 |}|Forward one paragraph |
 
