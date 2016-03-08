@@ -16,6 +16,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 * Plugins
 + https://github.com/stefanceriu/SCXcodeSwitchExpander
 + https://github.com/dealforest/Cichlid - automatically remove the current project's DerivedData directories
++ https://github.com/Jintin/Swimat - Format Swift code
 
 * Snippets
 + https://gist.github.com/pyrtsa
