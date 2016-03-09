@@ -12,6 +12,8 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + [[http://natashatherobot.com/xcode-block-select-mode/][XCode Tip: Block Select Mode]]
 + [[https://medium.com/@jasperkuperus/xcode-productivity-tips-88a9371c2c71][Xcode Productivity Tips]]
 + [[http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools][You Don’t Need The Xcode “Command Line Tools”]]
++ [[http://savvyapps.com/blog/xcode-tips-for-the-savvy-ios-developer][Xcode Tips for the Savvy iOS Developer]]
+
 
 * Plugins
 + https://github.com/stefanceriu/SCXcodeSwitchExpander
@@ -32,4 +34,3 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 * Snippets
 + https://gist.github.com/pyrtsa
 + ~/Library/Developer/Xcode/UserData/CodeSnippets/
-
