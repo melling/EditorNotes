@@ -11,7 +11,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 
 |Ctrl-/|Next autocomplete |
 |Ctrl-shift-/|Previos autocomplete |
-|Ctrl-z|symbols and methods in current file|
+|Ctrl-z 2?|symbols and methods in current file|
 |double-click (|Finds matching )|
 |Cmd-Ctrl-e|Edit all in scope|
 |Ctrl-t|Transpose characters |
