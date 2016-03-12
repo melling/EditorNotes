@@ -13,7 +13,20 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + [[https://medium.com/@jasperkuperus/xcode-productivity-tips-88a9371c2c71][Xcode Productivity Tips]]
 + [[http://www.cocoanetics.com/2012/07/you-dont-need-the-xcode-command-line-tools][You Don’t Need The Xcode “Command Line Tools”]]
 + [[http://savvyapps.com/blog/xcode-tips-for-the-savvy-ios-developer][Xcode Tips for the Savvy iOS Developer]]
-
++ http://five.agency/xcode-keyboard-shortcuts-which-will-boost-your-productivity
++ http://www.xmcgraw.com/13-xcode-tips-that-will-help-you-conquer-xcode
++ http://nshipster.com/xcode-plugins
++ http://www.raywenderlich.com/72021/supercharging-xcode-efficiency
++ http://www.katsbits.com/tutorials/blender/useful-keyboard-shortcuts.php
++ https://luisobo.wordpress.com/2014/01/13/custom-xcode-shortcuts
++ http://timbroder.com/2013/02/adding-a-delete-line-hotkey-in-xcode.html
++ https://github.com/payliu/XcodePlus
++ https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/TextCmdsByType/TextCmdsByType.html
++ http://www.funky-monkey.nl/blog/2014/02/adding-keybindings-in-xcode-5/
++ http://stackoverflow.com/questions/5834096/how-do-i-create-a-delete-line-keyboard-shortcut-in-xcode-6-the-xcode-3-solution
++ http://stackoverflow.com/questions/5541492/is-there-a-keyboard-shortcut-in-xcode-to-move-cursor-to-the-first-character-of-t?rq=1
++ http://stackoverflow.com/questions/9224849/multiple-line-cursor-movements-in-xcode-4?rq=1
++ http://stackoverflow.com/questions/10266170/xcode-duplicate-line
 
 * Plugins
 + https://github.com/stefanceriu/SCXcodeSwitchExpander
@@ -28,9 +41,119 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + Change Font Size
 + Snippets
  - https://github.com/burczyk/XcodeSwiftSnippets
++ https://vimeo.com/85025185
++ http://www.overacker.me/blog/2015/01/25/creating-an-xcode-plugin
++ http://github.com/kattrali/Xcode-Plugin-Template
++ http://nshipster.com/xcode-plugins
 
 ** Plugin Creation
 
 * Snippets
 + https://gist.github.com/pyrtsa
 + ~/Library/Developer/Xcode/UserData/CodeSnippets/
+
+#+STARTUP: showall
+#+TITLE: Xcode
+#+AUTHOR: http://h4labs.com
+#+EMAIL: melling@h4labs.com
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
+
+
+* Code Sense
+
+* Create Custom Commands
+
+cd /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Versions/A/Resources
+
+#+BEGIN_EXAMPLE
+vi IDETextKeyBindingSet.plist; # You can use any editor
+
+ls -ld .;  # Verify that the directory is not already world writeable
+
+sudo chmod a+w . .. ../..; # Directories are owned by root.  Make them writeable so you can edit
+
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+<key>h4labs</key>
+<dict>
+    <key>Delete Current Line</key>
+    <string>deleteToBeginningOfLine:, moveToEndOfLine:, deleteToBeginningOfLine:, deleteBackward:, moveDown:, moveToBeginningOfLine:</string>
+    <key>Duplicate Current Line</key>
+    <string>selectLine:, copy:, moveToEndOfLine:, insertNewline:, deleteToBeginningOfLine:, paste:, moveToBeginningOfLine:, deleteBackward:</string>
+</dict>
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+</dict>
+</plist>
+#+END_EXAMPLE
+
+Restart Xcode
+
+Xcode > Preferences > Key Bindings
+
+* OS X Keybindings
++ http://xahlee.info/kbd/osx_keybinding_action_code.html
++ http://xahlee.info/kbd/osx_keybinding.html
++ http://pqrs.org/osx/karabiner
++ http://osxnotes.net/keybindings.html
+
+Before:
+#+BEGIN_EXAMPLE
+        <key>Writing Direction</key>
+        <dict>
+                <key>Make Base Writing Direction Left to Right</key>
+                <string>makeBaseWritingDirectionLeftToRight:</string>
+                <key>Make Base Writing Direction Natural</key>
+                <string>makeBaseWritingDirectionNatural:</string>
+                <key>Make Base Writing Direction Right to Left</key>
+                <string>makeBaseWritingDirectionRightToLeft:</string>
+                <key>Make Text Writing Direction Left to Right</key>
+                <string>makeTextWritingDirectionLeftToRight:</string>
+                <key>Make Text Writing Direction Natural</key>
+                <string>makeTextWritingDirectionNatural:</string>
+                <key>Make Text Writing Direction Right to Left</key>
+                <string>makeTextWritingDirectionRightToLeft:</string>
+        </dict>
+</dict>
+</plist>
+#+END_EXAMPLE
+#+BEGIN_EXAMPLE
+        <key>Writing Direction</key>
+        <dict>
+                <key>Make Base Writing Direction Left to Right</key>
+                <string>makeBaseWritingDirectionLeftToRight:</string>
+                <key>Make Base Writing Direction Natural</key>
+                <string>makeBaseWritingDirectionNatural:</string>
+                <key>Make Base Writing Direction Right to Left</key>
+                <string>makeBaseWritingDirectionRightToLeft:</string>
+                <key>Make Text Writing Direction Left to Right</key>
+                <string>makeTextWritingDirectionLeftToRight:</string>
+                <key>Make Text Writing Direction Natural</key>
+                <string>makeTextWritingDirectionNatural:</string>
+                <key>Make Text Writing Direction Right to Left</key>
+                <string>makeTextWritingDirectionRightToLeft:</string>
+        </dict>
+<key>h4labs</key>
+<dict>
+    <key>Delete Current Line</key>
+    <string>deleteToBeginningOfLine:, moveToEndOfLine:, deleteToBeginningOfLine:, deleteBackward:, moveDown:, moveToBeginningOfLine:</string>
+    <key>Duplicate Current Line</key>
+    <string>selectLine:, copy:, moveToEndOfLine:, insertNewline:, deleteToBeginningOfLine:, paste:, moveToBeginningOfLine:, deleteBackward:</string>
+</dict>
+
+</dict>
+</plist>
+#+END_EXAMPLE
+
+{
+    "~w" = selectWord:; // option-w
+}
+
+Restart Xcode
+
+* Templates
++ http://www.bignerdranch.com/blog/xcode-templates-2
+
+Xcode > Preferences > Key Bindings
