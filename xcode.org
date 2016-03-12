@@ -8,7 +8,8 @@
 Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]] | [[file:xcode.org][Xcode]]
 
 * Key Bindings
-
+|Keystrokes|Description|Comments
+|---
 |Ctrl-/|Next autocomplete |
 |Ctrl-shift-/|Previos autocomplete |
 |Ctrl-z 2?|symbols and methods in current file|
