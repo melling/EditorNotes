@@ -12,6 +12,6 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 
 * Packages
 + https://packagecontrol.io
-+ https://github.com/ice9js/ace-jump-sublime
++ [[https://github.com/ice9js/ace-jump-sublime][AceJump]]
 + [[https://github.com/danielmagnussons/orgmode][OrgMode]]
-+ https://wbond.net/sublime_packages/sftp
++ [[https://wbond.net/sublime_packages/sftp][Sublime SFTP]]
