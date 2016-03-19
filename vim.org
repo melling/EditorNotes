@@ -14,6 +14,8 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + http://vimeo.com/vimlondon
 + http://vimeo.com/user1690209
 + http://www.youtube.com/playlist?list=PL8tzorAO7s0jy7DQ3Q0FwF3BnXGQnDirs
++ https://vim.zeef.com/patrick.schanen
++ [[http://www.moolenaar.net/habits.html][Seven habits of effective text editing]]
 + Reddit
  - [[http://www.reddit.com/r/vim/comments/3p1vuc/tips_on_using_vim_as_a_word_processor][Tips on using vim as a word processor]]
  - [[http://www.reddit.com/r/vim/comments/3n34j4/do_you_use_an_autocomplete_plugin_if_yes_which_one][Do you use an autocomplete plugin]]
@@ -21,14 +23,23 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 * Why vim?
 + http://stevelosh.com/blog/2010/09/coming-home-to-vim/#why-i-came-back-to-vim
 
+* Cheetsheets
+
++ http://vimcheatsheet.com
+ - https://cdn.shopify.com/s/files/1/0165/4168/files/preview.png
++ http://michael.peopleofhonoronly.com/vim/
++ https://www.fprintf.net/vimCheatSheet.html
 
 * Tutorials
 + vimtutor; # command line; run from Terminal
++ [[http://derekwyatt.org/vim/tutorials/][Vim Videos]] - Derek Wyatt
 + [[http://danielmiessler.com/study/vim][A vim Tutorial and Primer]]
 + http://github.com/spike01/learning-vim
++ [[http://zzapper.co.uk/vimtips.html][Best of VIM Tips]]
 + http://vim-adventures.com
 + [[https://github.com/bpierre/switch-to-vim-for-good][Switch To Vim For Good]]
 + [[http://howivim.com][How I vim]]
++ http://vimcasts.org/
 
 * .vimrc
 + http://news.ycombinator.com/item?id=10364760 - A Good vimrc 
@@ -37,8 +48,10 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + http://www.reddit.com/r/vim/comments/3hxmsy/let_vim_do_the_typing
 + http://news.ycombinator.com/item?id=10315645 - To Master vim, use it like language 
 + http://ferd.ca/vim-and-composability.html
++ [[http://learnvimscriptthehardway.stevelosh.com][Learn Vimscript the Hard Way]]
 + http://www.reddit.com/r/vim/comments/3jnxy1/quora_what_are_the_most_amazing_things_that_can
 + http://colindrake.me/2015/06/25/objective-c-ctags-vim
++ http://vimregex.com
 
 * Evil - Emacs vim
 + http://www.reddit.com/r/vim/comments/3fvbxw/evil_vi_improved_improved
