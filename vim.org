@@ -68,6 +68,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + http://github.com/terryma/vim-multiple-cursors
 + http://github.com/rking/ag.vim
 + http://github.com/unblevable/quick-scope
++ https://github.com/jceb/vim-orgmode
 
 * vim and Dvorak
 + http://superuser.com/questions/81984/dvorak-hotkey-remapping-in-vim-worth-it
