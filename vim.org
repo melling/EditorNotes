@@ -124,6 +124,7 @@ C-x - The vim completion prefix
 C-x C-n - complete word
 C-x C-l - complete line
 C-x C-] - tag
+C-x C-o - 
 #+END_EXAMPLE 
 
 #+BEGIN_EXAMPLE
@@ -136,3 +137,10 @@ command ranges (e.g. 10,+5s/foo/bar/g)
 miscellaneous commands (:global, :argdo, :normal, etc...)
 
 #+END_EXAMPLE
+
+* Misc
+** Show row count away from current line
+#+BEGIN_EXAMPLE
+:set relativenumber
+#+END_EXAMPLE
+
