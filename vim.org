@@ -117,12 +117,13 @@ qq - record macro. ESC to end record
 set @q=fooC-vbar - set the macro.  Has a newline C-v
 #+END_EXAMPLE
 
-* Auocompletion
+* Autocompletion
 
 #+BEGIN_EXAMPLE 
-
+C-x - The vim completion prefix
 C-x C-n - complete word
 C-x C-l - complete line
+C-x C-] - tag
 #+END_EXAMPLE 
 
 #+BEGIN_EXAMPLE
