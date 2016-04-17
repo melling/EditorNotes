@@ -4,7 +4,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/resources/css/myorg.css" />
 
 #+INCLUDE: "dev_menu.org"
-Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]] | [[file:xcode.org][Xcode]]
+Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] / [[file:org-mode.org][Org Mode]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]] | [[file:xcode.org][Xcode]]
 
 * Inbox
 + [[http://blog.binchen.org/posts/how-to-be-extremely-efficient-in-emacs.html][How to be extremely efficient in Emacs]]
@@ -214,18 +214,6 @@ Try: http://chrisdone.com/posts/god-mode
         :END:
         After the drawer.
 
-* Org Mode
-
-+ [[http://orgmode.org/worg/org-faq.html][Org-mode Frequently Asked Questions]]
-+ [[http://orgmode.org/worg/org-hacks.html][Org ad hoc code, quick hacks and workarounds]]
-+ [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
-+ [[http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html][Org Tutorial]]
-+ [[http://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][Publishing Org-mode files to HTML]]
-+ [[http://orgmode.org/orgcard.pdf][RefCard]]
-+ [[http://stackoverflow.com/questions/12052013/beautiful-websites-using-emacss-org-mode][beautiful websites using Emacs's org mode]]
-+ [[http://emacs-fu.blogspot.com/2009/05/writing-and-blogging-with-org-mode.html][writing and blogging with org-mode]]
-+ [[http://orgmode.org/worg/exporters/ox-overview.html][New Exporters]]
-+ [[http://vislab-ccom.unh.edu/~schwehr/rt/][2011 Research Tools]] (videos)
 
 * Misc Packages
 + http://github.com/kiwanami/emacs-calfw
