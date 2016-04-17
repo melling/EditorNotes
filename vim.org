@@ -118,6 +118,9 @@ set @q=fooC-vbar - set the macro.  Has a newline C-v
 #+END_EXAMPLE
 
 * Autocompletion
+#+BEGIN_EXAMPLE
+:set complete - Show where to look for completions
+#+END_EXAMPLE
 
 #+BEGIN_EXAMPLE 
 C-x - The vim completion prefix
@@ -143,4 +146,3 @@ miscellaneous commands (:global, :argdo, :normal, etc...)
 #+BEGIN_EXAMPLE
 :set relativenumber
 #+END_EXAMPLE
-
