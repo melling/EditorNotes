@@ -14,6 +14,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + http://www.reddit.com/r/emacs/comments/3a31av/orgbabel_example_collection
 + http://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html
 + http://github.com/mswift42/theme-creator
++ [[https://github.com/cmpitg/wand][Wand]] - Smart, rule-based execution of a piece of text like Acme Editor
 + http://www.openhub.net/p/emacs
 + http://www.wilfred.me.uk/blog/2015/03/19/adding-a-new-language-to-emacs
 + http://sachachua.com/blog/2015/04/2015-04-30-emacs-hangout-hosted-by-philip-stark
