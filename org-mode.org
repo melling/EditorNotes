@@ -25,3 +25,4 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + [[http://emacs-fu.blogspot.com/2009/05/writing-and-blogging-with-org-mode.html][writing and blogging with org-mode]]
 + [[http://orgmode.org/worg/exporters/ox-overview.html][New Exporters]]
 + [[http://vislab-ccom.unh.edu/~schwehr/rt/][2011 Research Tools]] (videos)
++ [[http://www.howardism.org/Technical/Emacs/orgmode-wordprocessor.html][Org as a Word Processor]]
