@@ -26,3 +26,4 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + [[http://orgmode.org/worg/exporters/ox-overview.html][New Exporters]]
 + [[http://vislab-ccom.unh.edu/~schwehr/rt/][2011 Research Tools]] (videos)
 + [[http://www.howardism.org/Technical/Emacs/orgmode-wordprocessor.html][Org as a Word Processor]]
++ [[http://www.john2x.com/blog/blogging-with-orgmode.html][Blogging with Orgmode]]
