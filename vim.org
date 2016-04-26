@@ -52,6 +52,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + http://www.reddit.com/r/vim/comments/3jnxy1/quora_what_are_the_most_amazing_things_that_can
 + http://colindrake.me/2015/06/25/objective-c-ctags-vim
 + http://vimregex.com
++ https://www.reddit.com/r/vim/comments/4gim6l/what_vim_ideas_help_pages_took_you_from/
 
 * Evil - Emacs vim
 + http://www.reddit.com/r/vim/comments/3fvbxw/evil_vi_improved_improved
