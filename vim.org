@@ -59,7 +59,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + http://blog.aaronbieber.com/2015/05/24/from-vim-to-emacs-in-fourteen-days.html
 
 * Plugins
-+ http://code.tutsplus.com/tutorials/vim-essential-plugin-easymotion--net-19223
++ https://code.tutsplus.com/tutorials/vim-essential-plugin-easymotion--net-19223
 + [[https://github.com/valloric/youcompleteme][YouCompleteMe]]
  - http://davisvigneault.com/2016/02/youcompleteme-rocks
 + http://github.com/bkad/CamelCaseMotion
