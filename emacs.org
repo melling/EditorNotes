@@ -21,13 +21,15 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + http://sachachua.com/blog/2015/03/emacs-hangout-2015-03-18-show-notes/?shareadraft=baba28038_550a329db6643
 + http://www.emacswiki.org/emacs/KeyChord
 + https://github.com/jonathanchu/emacs-powerline
-+ https://www.youtube.com/watch?v=FtieBc3KptU - Emacs for Writers
- - His emacs settings - https://github.com/incandescentman/Emacs-Settings
-+ Writer Neal Stephenson uses Emacs
+
 + http://defn.io/posts/2015-10-12-ido-mode.html
 
 * Emacs for Writers
 + https://awarewriter.wordpress.com/2012/03/04/org-mode-for-writing-structure-focus/
++ [[http://www.tonyballantyne.com/EmacsWritingTips.html][My Emacs Writing Setup]]
++ Writer Neal Stephenson uses Emacs
++ https://www.youtube.com/watch?v=FtieBc3KptU - Emacs for Writers
+ - His emacs settings - https://github.com/incandescentman/Emacs-Settings
 
 * Absolute Emacs Beginner
 
