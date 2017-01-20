@@ -8,6 +8,7 @@
 Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][elisp]] / [[file:org-mode.org][Org Mode]] | [[file:intellij.org][IntelliJ]] | [[file:sublime.org][Sublime]] | [[file:vim.org][vim]] | [[file:xcode.org][Xcode]]
 
 * Inbox
++ [[https://robots.thoughtbot.com/how-to-do-90-of-what-plugins-do-with-just-vim][How to Do 90% of What Plugins Do (With Just Vim)]]
 + https://github.com/learnbyexample/vim_reference
 + https://www.reddit.com/r/vim/comments/47lhdn/unleash_your_vim_fu_talk_at_vim_barcelona
 + [[http://vim.wikia.com/wiki/Invert_the_number_row_keys_for_faster_typing][Invert the number row keys for faster typing]]
