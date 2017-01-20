@@ -7,6 +7,9 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 
 * Inbox
 
++ [[https://hackernoon.com/super-charge-your-sublime-text-3-to-increase-your-productivity-5d02c2c1b356#.mvhkkij6q][Super charge your Sublime Text 3 to increase your productivity]]
++ [[https://sublimetutor.com][Sublime Tutor]]
+
 + http://jennifermann.ghost.io/a-quick-guide-to-sublime-text
 + $ subl .
 
