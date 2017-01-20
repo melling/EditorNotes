@@ -15,6 +15,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
  - https://github.com/jceb/vim-orgmode
 
 * Inbox
++ [[https://robots.thoughtbot.com/getting-started-with-org-mode][Getting Started With Org Mode]]
 + [[http://orgmode.org/worg/org-faq.html][Org-mode Frequently Asked Questions]]
 + [[http://orgmode.org/worg/org-hacks.html][Org ad hoc code, quick hacks and workarounds]]
 + [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
