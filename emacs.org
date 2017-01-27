@@ -25,6 +25,7 @@ Menu: [[file:atom.org][Atom]] | [[file:emacs.org][Emacs]] / [[file:elisp.org][el
 + http://defn.io/posts/2015-10-12-ido-mode.html
 
 * Emacs for Writers
++ https://robots.thoughtbot.com/emacs-for-writers
 + https://awarewriter.wordpress.com/2012/03/04/org-mode-for-writing-structure-focus/
 + [[http://www.tonyballantyne.com/EmacsWritingTips.html][My Emacs Writing Setup]]
 + Writer Neal Stephenson uses Emacs
